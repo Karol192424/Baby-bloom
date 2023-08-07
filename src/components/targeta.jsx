@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-const Tarjeta = ({img, titulo, contenido}) => {
+const Targeta = ({img, titulo, contenido}) => {
   return ( 
     <div className="flex flex-col items-center justify-center gap-y-2" >
       <img src={`/${img}`} alt="reloj"  className="h-[140px]" />
@@ -15,4 +15,4 @@ const Tarjeta = ({img, titulo, contenido}) => {
    );
 }
  
-export default Tarjeta;
+export default Targeta;
